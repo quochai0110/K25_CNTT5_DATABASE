@@ -1,0 +1,2 @@
+-- CÁCH TẠO DATABASE 
+CREATE DATABASE session01;
