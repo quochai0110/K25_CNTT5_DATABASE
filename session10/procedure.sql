@@ -1,0 +1,22 @@
+USE session11;
+
+-- TẠO STORE PROCEDURE
+DELIMITER //
+CREATE PROCEDURE getAllUser()
+BEGIN
+	SELECT * FROM Users;
+END //
+DELIMITER ;
+
+-- GỌI HÀM PROCEDURE
+CALL getALLUser();
+
+-- XÓA PROCEDURE
+DROP PROCEDURE getALLUser;
+
+
+
+
+
+
+
